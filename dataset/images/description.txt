@@ -1,1 +1,0 @@
-Please use the link below to download the image dataset. Maintain the JSONL structure as before, as it is not possible to upload the images here. Additionally, ensure that the dataset distribution from the link is respected across the training, validation, and testing sets.
