@@ -2,7 +2,7 @@
 This repository provides a framework for fine-tuning Florence-2 on medical imaging tasks using the MIMIC-CXR dataset. It supports LoRA adapters (PEFT) to enable lightweight, high-performance fine-tuning for medical captioning tasks.
 
 ## Dataset
-We use the MIMIC-CXR dataset, which contains chest X-ray images and radiology reports. Each report has an **Impression** (short summary) and a **Detailed Report** (full description). Data is organized in JSONL format with two types of captions: **caption** (impression) and **detailed caption** (findings). Example entry: `{"image": "images/img1.png", "prefix": "Chest X-ray", "suffix": "Mild bilateral pneumonia"}`. Here, `image` is a relative path from `dataset/images/`, `prefix` provides context for Florence-2, and `suffix` is the target caption.
+We use the MIMIC-CXR dataset, which contains chest X-ray images and radiology reports. Each report has an **Impression** (short summary) and a **Detailed Report** (full description). Data is organized in JSONL format with two types of captions: **caption** (impression) and **detailed caption** (findings). Example entry: `{"image": "test_24506.png", "prefix": "<CAPTION>", "suffix": "Interval placement of a left-sided chest tube with tip in the left lung apex. A right chest tube is now seen with side port within the thorax and tip in the apex. The endotracheal tube and enteric tube are unchanged} `. Here, `image` is a relative path from `dataset/images/`, `prefix` provides context for Florence-2, and `suffix` is the target caption.
 Also good to 
 
 Dataset structure:
