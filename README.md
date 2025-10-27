@@ -8,7 +8,7 @@ Also good to
 Dataset structure:
 ```
 dataset/
-├─ images/         # Chest X-ray images
+├─ images/         # Chest X-ray images use the link below to download the images data !! 
 ├─ train.jsonl     # training data
 └─ val.jsonl       # validation data
 ```
