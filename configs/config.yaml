@@ -1,1 +1,15 @@
+train_json: "dataset/train.jsonl"
+val_json: "dataset/val.jsonl"
+image_dir: "dataset/images"
+model_name: "microsoft/Florence-2-large"
+processor_name: "microsoft/Florence-2-large"
+batch_size: 4
+epochs: 50
+lr: 5e-6
+lora_target_modules:
+  - "q_proj"
+  - "k_proj"
+  - "v_proj"
+  - "o_proj"
+  - "lm_head"
 
