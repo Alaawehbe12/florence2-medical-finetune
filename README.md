@@ -55,7 +55,7 @@ lora_target_modules:
   - "v_proj"
   - "o_proj"
   - "lm_head"
-
+```
 ## Training
 
 Run the training script: python src/train.py. LoRA adapters are applied automatically. Checkpoints are saved in checkpoints/epoch_{n}. Mixed-precision training is enabled if GPU is available.
