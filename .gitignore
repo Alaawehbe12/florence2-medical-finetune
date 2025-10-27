@@ -1,1 +1,9 @@
 
+__pycache__/
+*.pyc
+.venv/
+.env
+dataset/images/
+dataset/*.pt
+outputs/
+checkpoints/
