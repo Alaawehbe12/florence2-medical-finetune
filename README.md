@@ -78,8 +78,8 @@ Use suffix to choose which caption to train on (impression or detailed report).
 
 ## References
 
-MIMIC-CXR Dataset
+[MIMIC-CXR Dataset](https://huggingface.co/datasets/itsanmolgupta/mimic-cxr-dataset)
 
-Florence-2 Model
+[Florence-2 Model](https://huggingface.co/microsoft/Florence-2-base)
 
-PEFT / LoRA
+[PEFT / LoRA](https://huggingface.co/docs/peft/en/package_reference/lora)
