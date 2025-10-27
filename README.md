@@ -7,27 +7,31 @@ We use the MIMIC-CXR dataset, which contains chest X-ray images and radiology re
 Dataset structure:
 
 dataset/
-├─ images/ # Chest X-ray images
-├─ train.jsonl # training data
-├─ val.jsonl # validation data
+├─ images/         # Chest X-ray images
+├─ train.jsonl     # training data
+└─ val.jsonl       # validation data
 
+Repository Structure:
 
-## Repository Structure
 florence2-medical-finetune/
 ├─ README.md
 ├─ requirements.txt
 ├─ .gitignore
 ├─ dataset/
-│ ├─ images/
-│ ├─ train.jsonl
-│ └─ val.jsonl
+│  ├─ images/
+│  ├─ train.jsonl
+│  └─ val.jsonl
 ├─ src/
-│ ├─ train.py # Main training script
-│ ├─ dataset.py # Dataset loader
-│ └─ utils.py # Helper functions
+│  ├─ train.py      # Main training script
+│  ├─ dataset.py    # Dataset loader
+│  └─ utils.py      # Helper functions
 ├─ configs/
-│ └─ config.yaml # Hyperparameters and paths
-└─ checkpoints/ # Saved models
+│  └─ config.yaml   # Hyperparameters and paths
+└─ checkpoints/     # Saved models
+
+
+
+
 
 ## Installation
 1. Clone the repo: `git clone https://github.com/yourusername/florence2-medical-finetune.git && cd florence2-medical-finetune`
