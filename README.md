@@ -5,14 +5,14 @@ This repository provides a framework for fine-tuning Florence-2 on medical imagi
 We use the MIMIC-CXR dataset, which contains chest X-ray images and radiology reports. Each report has an **Impression** (short summary) and a **Detailed Report** (full description). Data is organized in JSONL format with two types of captions: **caption** (impression) and **detailed caption** (full report). Example entry: `{"image": "images/img1.png", "prefix": "Chest X-ray", "suffix": "Mild bilateral pneumonia"}`. Here, `image` is a relative path from `dataset/images/`, `prefix` provides context for Florence-2, and `suffix` is the target caption.
 
 Dataset structure:
-'''
+```
 dataset/
 ├─ images/         # Chest X-ray images
 ├─ train.jsonl     # training data
 └─ val.jsonl       # validation data
-'''
+```
 Repository Structure:
-
+```
 florence2-medical-finetune/
 ├─ README.md
 ├─ requirements.txt
@@ -28,7 +28,7 @@ florence2-medical-finetune/
 ├─ configs/
 │  └─ config.yaml   # Hyperparameters and paths
 └─ checkpoints/     # Saved models
-
+```
 
 
 
